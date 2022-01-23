@@ -1,13 +1,14 @@
 # A collection of useful `.editorconfig` templates
-This is my collection of `.editorconfig` file templates. For more information on how EditorConfig works, please refer to the [official documentation](https://editorconfig.org).
-
-## What is EditorConfig?
-EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readable and they work nicely with version control systems.
+This is a collection of `.editorconfig` file templates. EditorConfig is a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. For more information on how EditorConfig works, please refer to [editorconfig.org](https://editorconfig.org).
 
 ## How to use this repo?
 To use this repo, find the best match for your project and copy its contents to a `.editorconfig` file on the root of your project.
 
-For example, if I have a Ruby on Rails project, I'd copy the contents of the `Rails.editorconfig` file to a `.editorconfig` file on the root of my Rails project.
+You can use this command to download a template from the `master` branch to your project. Just replace `Elixir.editorconfig` to your prefered template. For example:
+
+```sh
+cd /path/to/your/code && curl https://raw.githubusercontent.com/vinibrsl/editorconfig-templates/master/Elixir.editorconfig > .editorconfig
+```
 
 ## Contributing
 If you'd like to add a new `.editorconfig` template, make sure it doesn't exist yet. You can also edit an existing template, but make sure to explain why you're making a change on the PR description.
